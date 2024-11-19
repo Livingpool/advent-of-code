@@ -45,7 +45,7 @@ func Part1() {
 }
 
 func decipher(s string, wires map[string]*Node) uint16 {
-	// first check is s is a single int
+	// first check if s is a single int
 	if len(strings.Split(s, " ")) == 1 && unicode.IsDigit(rune(s[0])) {
 		num, err := strconv.Atoi(s)
 		if err != nil {
