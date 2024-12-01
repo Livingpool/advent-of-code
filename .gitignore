@@ -5,3 +5,19 @@
 
 main
 **/*.txt
+
+# scala files
+target
+*.class
+tags
+.*.swp
+.*.swo
+
+# scala metals
+.metals
+.scala-build
+.bloop
+project/**/metals.sbt
+
+.bsp
+.history
